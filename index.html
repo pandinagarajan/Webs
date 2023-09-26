@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <style>
+        /* Custom CSS for the navbar */
+        .navbar {
+            background-color: #ffffff; /* White background color for the navbar */
+            padding-top: 20px; /* Adjust the top padding to increase the navbar height */
+            padding-bottom: 20px; /* Adjust the bottom padding to increase the navbar height */
+        }
+
+        .navbar-toggler-icon {
+            font-size: 1.5rem; /* Increase the size of the navbar toggle button */
+        }
+
+        .navbar-brand {
+            color: #857070; /* Text color for the logo */
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .navbar-nav .nav-link {
+            color: #ffffff; /* Text color for the navigation links */
+            font-size: 18px;
+            margin-right: 20px; /* Add space between the navigation links */
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #333;
+            background-color: #fff; /* Background color for navigation links on hover */
+            border-radius: 5px; /* Add rounded corners to the links on hover */
+        }
+
+        /* Custom CSS for the page content */
+        body {
+            background-color: #f8f9fa; /* Light gray background color for the page */
+        }
+
+        .container {
+            padding-top: 50px; /* Add space from the top */
+        }
+
+        h1,h4 {
+            color: #fffdfd; /* Text color for headings */
+        }
+        #bod{
+            background: linear-gradient(to bottom, #003de6, #5fd3e2);
+            margin: 0; /* Remove default body margin */
+            padding: 0; /* Remove default body padding */
+            height: 50vh; /* Set the height of the body to fill the viewport */
+            display: flex; /* Use flexbox for centering content */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+        }
+    
+    </style>
+    <title>Bootstrap Navbar Example</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+  <img src="Media/final-logo-01 (5).png" style="width: 170px;">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#" style="color: black;">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="color: black;">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="color: black;">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="color: black;">Contact</a>
+      </li>
+      <li>
+        <button class="btn btn-primary" style="border-radius: 50px;">free demo</button>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container-fluid" id="bod">
+    <div class="row">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-7" >
+<h1><b>Do want upgrade<br>
+Your Tech Knowledge?
+        </h1></b>
+<h4 style="color: #fff;">We are Experts in that field and well know advanced <br>
+technology.<br>
+Our team guides you to increase your technology.</h4><br>
+<button class="btn btn-default" style="border: 2px solid blanchedalmond; background-color: white;color: #225af3;padding-right:30px">Join Today</button>
+        </div>
+        <div class="col-sm-4">
+            <img src="Media/Home-Page-image.png" style="width: 100%;" />
+        </div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
